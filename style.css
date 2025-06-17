@@ -1,4 +1,4 @@
-/* Reset and Base Styles */
+
 body, html {
     margin: 0;
     padding: 0;
@@ -6,8 +6,6 @@ body, html {
     text-align: center;
     font-family: "Poppins", sans-serif;
   }
-  
-  /* Top Container Styling */
   .top-container {
     height: 100vh;
     display: flex;
@@ -17,7 +15,7 @@ body, html {
     position: relative;
   }
   
-  /* Main Heading */
+
   h1 {
     font-family: "Sacramento", cursive;
     font-size: 5.625rem;
@@ -25,7 +23,6 @@ body, html {
     margin: 0;
   }
   
-  /* Subheading */
   h2 {
     font-family: "Montserrat", sans-serif;
     font-size: 2.5rem;
@@ -34,7 +31,6 @@ body, html {
     margin: 0;
   }
   
-  /* Flower Images */
   .flower-img {
     height: 250px;
     position: absolute;
@@ -50,22 +46,20 @@ body, html {
     top: 0;
   }
   
-  /* Middle Section - Center Everything */
   .middle-container {
-    height: 100vh; /* Full viewport height */
+    height: 100vh; 
     display: flex;
-    justify-content: center;  /* Center horizontally */
-    align-items: center;      /* Center vertically */
+    justify-content: center;
+    align-items: center;      
   }
   
-  /* Profile Box */
+
   .profile {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  
-  /* Profile Image */
+ 
   .bhavya {
     height: 180px;
     width: 180px;
