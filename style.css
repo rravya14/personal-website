@@ -214,4 +214,88 @@ h3{
     font-size: 0.9rem;
     margin-top: 15px;
   }
+  @media (max-width: 1024px) {
+    .parent {
+      flex-wrap: wrap;
+      gap: 60px;
+    }
+  
+    .typing,
+    .coding,
+    .chilli,
+    .Fearless-Foodie {
+      text-align: center;
+    }
+  
+    .coding p,
+    .Fearless-Foodie p {
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 3.5rem;
+    }
+  
+    h2 {
+      font-size: 2rem;
+    }
+  
+    .middle-container {
+      height: auto;
+      padding: 40px 20px;
+    }
+  
+    .intro {
+      width: 90%;
+      font-size: 0.95rem;
+    }
+  
+    .skills h2 {
+      font-size: 2rem;
+      margin-bottom: 40px;
+    }
+  
+    .cat,
+    .red-chilli {
+      width: 180px;
+      height: auto;
+    }
+  
+    .parent {
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+    }
+  
+    .contact-me h2 {
+      font-size: 2rem;
+    }
+  
+    .contact-me h3 {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .bhavya {
+      height: 140px;
+      width: 140px;
+    }
+  
+    .footer-link {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    .contact-message {
+      font-size: 0.95rem;
+    }
+  
+    .contact-me button {
+      font-size: 0.9rem;
+      padding: 8px 16px;
+    }
+  }
   
